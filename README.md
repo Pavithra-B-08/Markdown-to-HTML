@@ -1,2 +1,2 @@
 # Markdown-to-HTML
-This project aims to convert the basic markdown to html 
+This project aims to convert some basic markdown to html 
