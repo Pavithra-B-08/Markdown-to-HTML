@@ -17,9 +17,8 @@ parser can interpret for conversion to HTML.
 - **Yacc** (Yet Another Compiler Compiler) is a parser generator that interprets the tokens produced by Lex 
 according to predefined grammar rules for HTML structure. Yacc takes this stream of tokens and organizes 
 them into a syntax tree based on HTML’s structural requirements, enabling the generator to create valid HTML 
-output. For example, tokens generated from a Markdown “header” guide Yacc to create the corresponding 
-**<h1>**, **<h2>**, or other HTML header tags. Similarly, tokens for list items prompt Yacc to wrap them in **<ul>** or 
-**<ol>** tags, ensuring that the resulting HTML matches the structure and semantics of the Markdown input. 
+output.
+
 
 By combining Lex and Yacc in this project, we establish a streamlined process for translating Markdown syntax 
 into syntactically correct HTML, with integrated CSS for styling.
